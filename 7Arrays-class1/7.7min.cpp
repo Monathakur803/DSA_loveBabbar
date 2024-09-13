@@ -1,3 +1,4 @@
+//Minimum number in array
 #include<iostream>
 #include<limits.h>
 using namespace std;

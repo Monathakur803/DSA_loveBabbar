@@ -1,4 +1,4 @@
-#include<iostream>
+#include <iostream>
 using namespace std;
 int main()
 {
@@ -17,13 +17,13 @@ int main()
     // //int br[4] = {2,3,4,5,6,7}; // Itt will generate error b/c memory space is 4 and we give vale more than 4.
     // char array[5] = {'a','c','d','e','f'};
     // cout<<"Array initilized successfully "<<endl;
-    
+
     // //printing all value form array
     // int arr[] = {1,3,5,7,9};
     // for(int index = 0; index < 6; index++){
     //     cout<<arr[index]<<" ";
     // }
-    
+
     // //printing value by taking i/p from  user
     // int arr[10];
     // //takinng i/p from user
@@ -36,7 +36,7 @@ int main()
     // for(int i = 0 ; i < 10; i++){
     //     cout<<arr[i]<<" ";
     // }
-    
+
     // // Take  5 element from user in array and print there doube
     // int arr[5];
     // cout<<"Enter the elements in array: "<<endl;
@@ -73,9 +73,10 @@ int main()
     // }
 
     //
-    int arr[10]  = {1,2,3};
-    for(int i=0;i<10;i++){
-        cout<<arr[i]<<" ";
+    int arr[10] = {1, 2, 3};
+    for (int i = 0; i < 10; i++)
+    {
+        cout << arr[i] << " ";
     }
 
     return 0;

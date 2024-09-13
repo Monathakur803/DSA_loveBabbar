@@ -15,19 +15,20 @@ int main()
     while (start <= end)
     {
         /* code */
-        //step1 swap start with end index
-        swap(arr[start],arr[end]);
-        //step 2 : increse start
+        // step1 swap start with end index
+        swap(arr[start], arr[end]);
+        // step 2 : increse start
         start++;
-        //step 3 dectese end index
+        // step 3 dectese end index
         end--;
     }
-    //printing reverse array
-    cout<<"[ ";
-    for(int i=0; i<size; i++){
-        cout<<arr[i]<<" ";
+    // printing reverse array
+    cout << "[ ";
+    for (int i = 0; i < size; i++)
+    {
+        cout << arr[i] << " ";
     }
-    cout<<"]";
-    
+    cout << "]";
+
     return 0;
 }

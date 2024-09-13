@@ -20,12 +20,12 @@ int main()
 
         if (start == end)
         {
-            //when size is odd
+            // when size is odd
             cout << arr[start] << " ";
         }
         else
         {
-            //when size is even
+            // when size is even
             cout << arr[start] << " ";
             cout << arr[end] << " ";
         }

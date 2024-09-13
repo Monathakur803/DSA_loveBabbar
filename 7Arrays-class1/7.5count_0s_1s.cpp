@@ -21,8 +21,8 @@ int main()
             numOne++;
         }
     }
-    cout<<"Number of zeros : "<<numZero<<endl;
-    cout<<"Number od ones  : "<<numOne<<endl;
+    cout << "Number of zeros : " << numZero << endl;
+    cout << "Number od ones  : " << numOne << endl;
 
     return 0;
 }
