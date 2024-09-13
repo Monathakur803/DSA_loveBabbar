@@ -1,3 +1,4 @@
+// sum of n even number
 #include <iostream>
 using namespace std;
 int sumEven(int n) // we are using integer return type b/c it will always returm integraal value

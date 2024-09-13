@@ -1,14 +1,17 @@
-#include<iostream>
+#include <iostream>
 using namespace std;
-void counting(int n){
-    for(int i = 0 ; i < n; i++){
-        cout<<"counting till N is "<<endl<<i+1<<endl;
+void counting(int n)
+{
+    for (int i = 0; i < n; i++)
+    {
+        cout << "counting till N is " << endl
+             << i + 1 << endl;
     }
 }
-int main(){
+int main()
+{
     int n;
-    cout<<"Enter the value of n:"<<endl;
-    cin>>n;
+    cout << "Enter the value of n:" << endl;
+    cin >> n;
     counting(n);
-    
 }

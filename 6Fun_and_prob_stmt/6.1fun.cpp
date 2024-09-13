@@ -1,6 +1,6 @@
-#include<iostream>
+#include <iostream>
 using namespace std;
-//function decleration
+// function decleration
 /*
 void printName(){
         int n;
@@ -11,22 +11,23 @@ void printName(){
         }
     }
 */
-void printSum(int num1, int num2){
+void printSum(int num1, int num2)
+{
     int c;
     c = num1 + num2;
-    cout<<c<<endl;
+    cout << c << endl;
     // cout<<num;
 }
-int main(){
+int main()
+{
     /*
     //calling function
     printName();// when it call funtion it will directly go to line number 4
     */
-   int a=4;
-   int b =4;
-   printSum(a,b);
-   //cout<<"Address of a is : "<< &a << endl;
+    int a = 4;
+    int b = 4;
+    printSum(a, b);
+    // cout<<"Address of a is : "<< &a << endl;
 
-   //printNum(a);
-    
+    // printNum(a);
 }
