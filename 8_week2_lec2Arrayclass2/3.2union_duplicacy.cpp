@@ -1,4 +1,4 @@
-//union of 2 array withhout duplicacy
+// union of 2 array withhout duplicacy
 
 #include <iostream>
 #include <vector>
@@ -17,9 +17,10 @@ int main()
     // push all the elements of vector arr
     for (int i = 0; i < sizea; i++)
     {
-        
-        //ans.push_back(arr[i]);
-        if(arr[i] != INT_MIN){
+
+        // ans.push_back(arr[i]);
+        if (arr[i] != INT_MIN)
+        {
             ans.push_back(arr[i]);
         }
     }
@@ -27,7 +28,8 @@ int main()
     // push all elements of vector brr
     for (int i = 0; i < sizeb; i++)
     {
-        if(brr[i] != INT_MIN){
+        if (brr[i] != INT_MIN)
+        {
             ans.push_back(brr[i]);
         }
     }

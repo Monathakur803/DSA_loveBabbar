@@ -1,4 +1,4 @@
-//find unique element 
+// find unique element
 
 #include <iostream>
 #include <vector>

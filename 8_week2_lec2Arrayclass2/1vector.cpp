@@ -51,14 +51,14 @@ int main()
     cout<<endl;
 
     //other way to initilize
-    vector<int>drr{10,20,30};
-    for(int i = 0;  i< drr.size(); i++){
-        cout<<drr[i]<<" ";
-    }
+    // vector<int>drr{10,20,30};
+    // for(int i = 0;  i< drr.size(); i++){
+    //     cout<<drr[i]<<" ";
+    // }
     cout<<endl;
     vector<int>err;
 
-    cout<<"Vector drr is empty or not "<<drr.empty()<<endl;
+    //cout<<"Vector drr is empty or not "<<drr.empty()<<endl;
     cout<<"Vector arr is empty or not "<<err.empty()<<endl;
     
     return 0;
