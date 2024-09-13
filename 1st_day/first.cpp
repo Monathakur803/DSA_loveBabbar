@@ -5,7 +5,6 @@ int main() {
 
   // char ch = 25;
   // cout<<ch<<endl;
-  
   /*
    // Arithmatic operations:
   int a =7;
