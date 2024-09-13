@@ -45,7 +45,7 @@ int main()
     // cout<<linear_search(arr, row, col, key);  //calling print sum function
     if (linear_search(arr, row, col, key))
     {
-        cout <<"True" << endl;
+        cout << "True" << endl;
     }
     else
     {
