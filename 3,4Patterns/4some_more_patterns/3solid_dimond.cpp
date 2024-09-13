@@ -1,51 +1,51 @@
 #include <iostream>
 using namespace std;
 int main()
-{ 
-    /*
-         *  
-       *   *
-     *   *   *
-   *   *   *   *
- *   *   *   *   *
- *   *   *   *   *  
-   *   *   *   *
-     *   *   *
-       *   *
-         *
-    
-    */
+{
+  /*
+       *
+     *   *
+   *   *   *
+ *   *   *   *
+*   *   *   *   *
+*   *   *   *   *
+ *   *   *   *
+   *   *   *
+     *   *
+       *
 
-    int n;
-    cout << "Enter the value of n: ";
-    cin >> n;
-    for (int row = 0; row < n; row = row + 1)
+  */
+
+  int n;
+  cout << "Enter the value of n: ";
+  cin >> n;
+  for (int row = 0; row < n; row = row + 1)
+  {
+    // space
+    for (int i = 0; i < n - row - 1; i = i + 1)
     {
-        // space
-        for (int i = 0; i < n - row - 1; i = i + 1)
-        {
-            // print *
-            cout << "  ";
-        }
-        for (int col = 0; col < row + 1; col = col + 1)
-        {
-            cout << " *  ";
-        }
-        cout << endl;
+      // print *
+      cout << "  ";
     }
-    for (int row = 0; row < n; row = row + 1)
+    for (int col = 0; col < row + 1; col = col + 1)
     {
-        // space
-        for (int i = 0; i < row; i = i + 1)
-        {
-            // print *
-            cout << "  ";
-        }
-        // stars
-        for (int col = 0; col < n - row; col = col + 1)
-        {
-            cout << " *  ";
-        }
-        cout << endl;
+      cout << " *  ";
     }
+    cout << endl;
+  }
+  for (int row = 0; row < n; row = row + 1)
+  {
+    // space
+    for (int i = 0; i < row; i = i + 1)
+    {
+      // print *
+      cout << "  ";
+    }
+    // stars
+    for (int col = 0; col < n - row; col = col + 1)
+    {
+      cout << " *  ";
+    }
+    cout << endl;
+  }
 }
