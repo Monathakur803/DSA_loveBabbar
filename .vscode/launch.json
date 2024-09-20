@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "e:/DSA_love_babbar/DSA_LoveBabbar/5Patterns/2some_more_patterns",
-      "program": "e:/DSA_love_babbar/DSA_LoveBabbar/5Patterns/2some_more_patterns/build/Debug/outDebug",
+      "cwd": "e:/DSA_love_babbar/DSA_LoveBabbar/11Searching_sorting_class_II",
+      "program": "e:/DSA_love_babbar/DSA_LoveBabbar/11Searching_sorting_class_II/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
